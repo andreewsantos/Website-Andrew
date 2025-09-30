@@ -1,4 +1,3 @@
-/* Reset */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 /* Paleta */
@@ -10,7 +9,7 @@
   --card-bg: #1a1a1a;
 }
 
-/* Corpo */
+/* Body */
 body {
   font-family: 'Montserrat', sans-serif;
   background: var(--bg-dark);
@@ -152,18 +151,20 @@ button:hover, .btn-cv:hover {
 }
 
 #sobre p { 
+  font-family: 'Montserrat', sans-serif;
   max-width: 810px;
   margin: 0 auto;
   text-align: justify;
   line-height: 1.6;
   font-size: 1.0rem;
-  color: #ffffff;
+  color: #fffafad9;
   padding: 15px;
   background: rgba(255, 255, 255, 0.02);
   padding: 25px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.4);
-  border-left: 4px solid #00ff99;
+  border-left: 3px solid #00ff99;
+  border-right: 3px solid #00ff99;
 }
 
 #contato p {
@@ -258,3 +259,4 @@ button:hover, .btn-cv:hover {
   color: #ffffff; 
    transform: translateY(-3px);
 }
+
