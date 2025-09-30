@@ -1,5 +1,4 @@
 /* --- RESET --- */
-
 * { 
   margin: 0; 
   padding: 0; 
@@ -281,3 +280,4 @@ button:hover, .btn-cv:hover {
   color: #ffffff; 
   transform: translateY(-3px);
 }
+
