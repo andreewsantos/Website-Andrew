@@ -167,12 +167,12 @@ button:hover, .btn-cv:hover {
   line-height: 1.6;
   font-size: 1.0rem;
   color: #fffafad9;
-  padding: 25px;
+  padding: 15px;
   background: rgba(255, 255, 255, 0.02);
-  border-radius: 12px;
+  padding: 25px;
+  border-radius: 0px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.4);
-  border-left: 3px solid var(--highlight);
-  border-right: 3px solid var(--highlight);
+  border-left: 3px solid #00ff99;
 }
 
 /* Contato */
@@ -280,4 +280,5 @@ button:hover, .btn-cv:hover {
   color: #ffffff; 
   transform: translateY(-3px);
 }
+
 
